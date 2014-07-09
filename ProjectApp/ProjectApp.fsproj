@@ -136,7 +136,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <None Include="packages.config" />
-    <Content Include="readme.txt" />
     <None Include="App\main.html" />
   </ItemGroup>
   <ItemGroup>

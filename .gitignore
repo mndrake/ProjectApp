@@ -28,9 +28,6 @@ local.properties
 # PDT-specific
 .buildpath
 
-# Nuget packages
-packages/
-
 #################
 ## Visual Studio
 #################
@@ -132,7 +129,8 @@ publish/
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
+packages/*
+!packages/FsWebAddRegistryEntries.0.1.0.0/
 
 # Windows Azure Build Output
 csx
