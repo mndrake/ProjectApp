@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ed9c7cc8-0fcb-4cee-b201-2e2b7ee3bdb8</ProjectGuid>
-    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
+    <ProjectGuid>ca1ea12a-e968-435a-8509-4e0fda0578ad</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349C5851-65DF-11DA-9384-00065B846F21};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <RootNamespace>ProjectApp</RootNamespace>
@@ -136,15 +136,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <None Include="packages.config" />
-    <None Include="App\main.html" />
+    <Content Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="FSharp.Core">
-      <HintPath>..\lib\FSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure">
       <HintPath>$(SolutionDir)\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -197,6 +194,9 @@
     </Reference>
     <Reference Include="System.Web.WebPages.Razor">
       <HintPath>$(SolutionDir)\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml" />

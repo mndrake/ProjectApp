@@ -1,19 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ProjectApp", "ProjectApp\ProjectApp.fsproj", "{ED9C7CC8-0FCB-4CEE-B201-2E2B7EE3BDB8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{86EF2DE9-434F-40D0-943F-B352E602EF49}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{97FE124D-E89E-4A31-AAA4-0D69F94FE8E0}"
-	ProjectSection(SolutionItems) = preProject
-		lib\FSharp.Core.dll = lib\FSharp.Core.dll
-		lib\FSharp.Core.optdata = lib\FSharp.Core.optdata
-		lib\FSharp.Core.sigdata = lib\FSharp.Core.sigdata
-	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ProjectApp", "ProjectApp\ProjectApp.fsproj", "{CA1EA12A-E968-435A-8509-4E0FDA0578AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED9C7CC8-0FCB-4CEE-B201-2E2B7EE3BDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED9C7CC8-0FCB-4CEE-B201-2E2B7EE3BDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED9C7CC8-0FCB-4CEE-B201-2E2B7EE3BDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED9C7CC8-0FCB-4CEE-B201-2E2B7EE3BDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1EA12A-E968-435A-8509-4E0FDA0578AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1EA12A-E968-435A-8509-4E0FDA0578AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1EA12A-E968-435A-8509-4E0FDA0578AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1EA12A-E968-435A-8509-4E0FDA0578AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
