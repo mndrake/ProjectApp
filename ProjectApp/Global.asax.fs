@@ -21,6 +21,7 @@ type BundleConfig() =
                         "~/Scripts/respond.js"))
 
         bundles.Add(StyleBundle("~/Content/css").Include(
+                        "~/Content/boostrap-theme.css",
                         "~/Content/bootstrap.css",
                         "~/Content/site.css"))
 
